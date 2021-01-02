@@ -1,2 +1,2 @@
-# Alpha-Tower
-API em Node - Alpha Tower Sales System
+# Alpha Tower Sales System
+API Restful developed in Node.js
