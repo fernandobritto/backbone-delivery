@@ -1,0 +1,9 @@
+{
+  "name": "alpha-tower",
+  "version": "1.0.0",
+  "description": "Alpha Tower Sales System",
+  "main": "index.js",
+  "repository": "https://github.com/fernandobritto/Alpha-Tower.git",
+  "author": "Fernando Britto",
+  "license": "MIT"
+}
