@@ -1,0 +1,35 @@
+import dotenv from 'dotenv'
+dotenv.config()
+
+import express from 'express'
+import compression from 'compression'
+import mainRote from './routes/mainRote'
+import statusMonitor from 'express-status-monitor'
+import logger from './logs'
+import pinoHttp from 'pino-http'
+import './database'
+
+
+class App {
+    constructor(){
+        this.app = express()
+        this.middlewares()
+        this.routes()
+    }
+
+    middlewares(){
+        this.app.use(compression())
+        this.app.use(express.json())
+        this.app.use(express.urlencoded({ extended: true }))
+        this.app.use(statusMonitor({ path: '/monitor'}))
+        this.app.use(pinoHttp({ logger }))
+    }
+
+    routes(){
+        this.app.use('/sales', mainRote)
+    }
+
+
+}
+
+export default new App().app
