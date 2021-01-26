@@ -1,0 +1,30 @@
+{
+  "name": "alpha-tower",
+  "version": "1.0.0",
+  "description": "API em Node - Alpha Tower Sales System ",
+  "main": "server.js",
+  "repository": "https://github.com/fernandobritto/Alpha-Tower.git",
+  "author": "Fernando Britto",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "compression": "1.7.4",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-status-monitor": "1.3.3",
+    "jsonwebtoken": "8.5.1",
+    "mariadb": "2.5.2",
+    "pino": "6.11.0",
+    "pino-http": "5.3.0",
+    "sequelize": "6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7",
+    "pino-pretty": "4.3.0",
+    "sequelize-cli": "6.2.0",
+    "sucrase": "3.17.0"
+  }
+}
