@@ -4,6 +4,7 @@ dotenv.config()
 import express from 'express'
 import compression from 'compression'
 import mainRote from './routes/mainRote'
+import clientRote from './routes/clientRote'
 import statusMonitor from 'express-status-monitor'
 import logger from './logs'
 import pinoHttp from 'pino-http'
@@ -27,6 +28,7 @@ class App {
 
     routes(){
         this.app.use('/sales', mainRote)
+        this.app.use('/sales/:user_id/client', clientRote)
     }
 
 
