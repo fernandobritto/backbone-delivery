@@ -10,11 +10,10 @@
 The main tools used in the project:
 
 - [Node.js][nodejs]
-- [MariaDB][mariadb]
-- [Sequelize][Sequelize]
 - [Express][express]
 - [Nodemon][nodemon]
 - [Sucrase][sucrase]
+- [Sequelize][sequelize]
 - [bcrypt.js][bcryptjs]
 - [Dotenv][dotenv]
 - [Express Status Monitor][statusmonitor]
@@ -22,11 +21,10 @@ The main tools used in the project:
 
 
 [nodejs]: https://nodejs.org/
-[mariadb]: https://mariadb.org/
-[Sequelize]: https://sequelize.org/
 [express]: https://expressjs.com/pt-br/
 [nodemon]: https://nodemon.io/
 [sucrase]: https://sucrase.io/
+[sequelize]: https://sequelize.org/
 [bcryptjs]: https://www.npmjs.com/package/bcryptjs
 [dotenv]: https://www.npmjs.com/package/dotenv
 [statusmonitor]: https://www.npmjs.com/package/express-status-monitor
