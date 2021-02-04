@@ -9,25 +9,23 @@
 
 The main tools used in the project:
 
+- [Typescript][typescript]
 - [Node.js][nodejs]
 - [Express][express]
-- [Nodemon][nodemon]
+- [Knex.js][knex]
 - [Sucrase][sucrase]
-- [Sequelize][sequelize]
 - [bcrypt.js][bcryptjs]
 - [Dotenv][dotenv]
-- [Express Status Monitor][statusmonitor]
 
 
 
+[typescript]: https://www.typescriptlang.org/
 [nodejs]: https://nodejs.org/
 [express]: https://expressjs.com/pt-br/
-[nodemon]: https://nodemon.io/
+[knex]: http://knexjs.org/
 [sucrase]: https://sucrase.io/
-[sequelize]: https://sequelize.org/
 [bcryptjs]: https://www.npmjs.com/package/bcryptjs
 [dotenv]: https://www.npmjs.com/package/dotenv
-[statusmonitor]: https://www.npmjs.com/package/express-status-monitor
 [license]: https://opensource.org/licenses/MIT
 
 

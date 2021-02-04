@@ -1,0 +1,36 @@
+{
+  "name": "alpha-tower",
+  "version": "1.5.0",
+  "description": "API em Node - Alpha Tower Sales System",
+  "main": "source/server.ts",
+  "repository": "https://github.com/fernandobritto/Alpha-Tower.git",
+  "author": "Fernando Britto",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "knex": "0.21.17",
+    "mysql2": "2.2.5"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.11",
+    "@types/nodemon": "1.19.0",
+    "@typescript-eslint/eslint-plugin": "4.14.2",
+    "@typescript-eslint/parser": "4.14.2",
+    "eslint": "7.19.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "4.2.1",
+    "nodemon": "2.0.7",
+    "prettier": "2.2.1",
+    "sucrase": "3.17.1",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.3"
+  }
+}
