@@ -3,7 +3,7 @@ import { resolve } from 'path'
 const knexFile = {
 
   development: {
-    client: 'mysql',
+    client: 'mysql2',
     connection: {
       host: process.env.DATABASE_HOST || '127.0.0.1',
       port: process.env.DATABASE_PORT || '3306',
@@ -21,7 +21,7 @@ const knexFile = {
   },
 
   production: {
-    client: 'mysql',
+    client: 'mysql2',
     connection: {
       database: process.env.DB_PROD || 'alpha_tower',
       user: process.env.DB_PROD_USERNAME || 'username',
