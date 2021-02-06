@@ -1,6 +1,6 @@
-import * as Knex from 'knex'
+import knex from 'knex'
 import knexFile from '../../knexfile'
 
-const knex = Knex(knexFile.development)
+const dbMain = knex(knexFile.development)
 
-export default knex
+export default dbMain
